@@ -1,0 +1,23 @@
+[  
+  {    
+    "title": "How to Build a Website with React and Node.js",    
+    "author": "John Doe",    
+    "date": "2022-03-15",    
+    "tags": ["react", "node.js", "web development"],
+    "content": "In this tutorial, we will learn how to build a website using React and Node.js. We will cover the basics of setting up a development environment, creating a React app, and building a Node.js backend to handle data requests. By the end of this tutorial, you will have a basic understanding of how to build a full-stack web application using React and Node.js."
+  },
+  {
+    "title": "10 Tips for Writing Clean Code",
+    "author": "Jane Smith",
+    "date": "2022-02-28",
+    "tags": ["coding", "best practices"],
+    "content": "Writing clean code is essential for any developer who wants to create maintainable and scalable applications. In this article, we will discuss 10 tips for writing clean code that is easy to read, understand, and maintain. By following these best practices, you can improve your coding skills and create better software."
+  },
+  {
+    "title": "Why Functional Programming Matters",
+    "author": "Bob Johnson",
+    "date": "2022-01-20",
+    "tags": ["functional programming", "programming paradigms"],
+    "content": "Functional programming is a programming paradigm that has gained popularity in recent years due to its many benefits. In this article, we will discuss why functional programming matters and how it can help you write better code. We will cover the basics of functional programming, its advantages over other programming paradigms, and some common use cases where it is applicable."
+  }
+]
