@@ -1,10 +1,10 @@
 version: latest
 services:
   mongodb:
+    container_name: mongodb_container
     image: mongo:latest
     ports:
       - "27017:27017"
-
   mongo_seed:
     image: mongo:latest
     links:
