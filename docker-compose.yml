@@ -5,11 +5,22 @@ services:
     image: mongo:latest
     ports:
       - "27017:27017"
+    # networks: 
+    #   - mongo-network
+
+  # mongo_init:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.init
+  #   environment:
+  #     - MONGO_HOST=mongo
+  #   networks:
+  #     - mongo-network
+
   mongo_seed:
-    image: mongo:latest
-    links:
+    build: ./mongo-seed
+    depends_on:
       - mongodb
-    volumes:
-      - ./scripts/db:/scripts/db/
-    command:
-      /scripts/db/init.sh
+
+# networks:
+#   mongo-network:

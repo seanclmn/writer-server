@@ -1,0 +1,4 @@
+FROM mongo:latest
+
+COPY ./init.sh /scripts/db/init.sh
+RUN chmod +x /scripts/db/init.sh
